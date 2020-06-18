@@ -8,13 +8,15 @@ To do this you need to include jQuery & UI, then use it inside a block like the 
 
 <script type="text/javascript">
   
-  (function($) {  
-  	// important!!!
+  (function($) {  // important!!!
 	// in here it is safe to use $ for jQuery (nowhere else!)
+	
 	$(function(){
 		$( "#datepicker" ).datepicker();
 	})
-	})(jQuery)
+	
+   })(jQuery)
+	
 </script>
 
 </pre>
